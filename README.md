@@ -7,7 +7,9 @@ With over 100,000 records of order and customer data available from the years 20
 
 The following graphic shows the Entity Relationship Diagram (ERD) which highlights the structure of the data tables and how they are used/joined for our analysis:
 
+<p align="center">
 <img width="600" src="https://github.com/user-attachments/assets/08c99702-0b27-4522-a564-f2dc8041efd8">
+</p>
 
 # High-Level Summary
 Starting from 2019, Elist’s most relevant metrics saw a steady trend upwards throughout the entire year. In 2020, there was a large and dramatic increase in every metric, namely due to the pandemic and its associated increase in consumer spending: 
@@ -31,10 +33,14 @@ Continuing into 2022, this year showed the most notable decline across all metri
 As it stands, these metrics are back down at levels comparable to 2019, with total orders and total sales still up slightly (up ~28% for both in 2022 compared to 2019) and AOV being exactly the same as pre-pandemic levels ($230).
 
 To better illustrate these trends, the following total sales chart paints a great picture of the above information:
+<p align="center">
 <img width="805" alt="total sales" src="https://github.com/user-attachments/assets/caf5ca04-15b7-4657-969a-34614cb83568">
+</p>
 
 Additionally, the following pivot table displays all of the same information highlighted above but with additional filters for loyalty member status, individual products, and regions:
+<p align="center">
 <img width="781" alt="Yearly Sales Table" src="https://github.com/user-attachments/assets/4dceedda-1919-44f3-ae68-6cdce44513e0">
+</p>
 
 # Insights Deep-Dive
 ## Seasonality
@@ -59,7 +65,9 @@ By examining these charts, we can note a few observations:
 ## Regionality
 Next, I analyzed how Elist’s sales differed across customer region. In the following chart, you can see the percentage of total sales that each region constituted at any given time from 2019-2022.
 
+<p align="center">
 <img width="809" alt="total sales per region" src="https://github.com/user-attachments/assets/9af1cff8-38f0-4584-b016-256e8f23fad9">
+</p>
 
 - **North American (NA)** orders accounted for the majority of all sales by far:
     - ~$14.5M total sales & ~51.7% of all sales
@@ -82,7 +90,11 @@ Besides the discrepancies among these regions, there does not appear to be any o
 <br clear="left"/>
 
 ## Refunds
-<img width="400" alt="refunds" align="left" src="https://github.com/user-attachments/assets/a423587c-d096-489f-b3f1-155a684e87e1"> Refunds are yet another important variable to analyze with regards to product satisfaction. The pivot table shown here displays a list of all products sold by Elist and their given AOV, number of refunds, and refund rate (# of refunds / # of total orders) for each year. 
+Refunds are yet another important variable to analyze with regards to product satisfaction. The pivot table shown here displays a list of all products sold by Elist and their given AOV, number of refunds, and refund rate (# of refunds / # of total orders). 
+
+<p align="center">
+<img width="461" alt="refund rate shorter table" src="https://github.com/user-attachments/assets/5edbc94f-12a3-4304-a50d-cb56bc334238">
+</p>
 
 The **item with the most number of refunds** by far are the **Apple Airpods Headphones** (2636 total refunds) followed by the 27in 4k Gaming Monitor (1444 total refunds). 
 
@@ -97,7 +109,9 @@ Lastly, another important area of interest to examine are the differences betwee
 
 &nbsp;
 
+<p align="center">
 <img width="817" alt="loyalty table" src="https://github.com/user-attachments/assets/a0e4949a-15c0-47b0-ae18-738fc1946575">
+</p>
 
 &nbsp;
 
@@ -117,6 +131,15 @@ Taking all of our above analysis into consideration, there are a few recommendat
 - **Investigate the Abnormally High Refund Rates for Laptops:** Figure out if there are any specific reasons as to why customers refund both the Macbook Air and Thinkpad Laptops at considerably higher rates than all other products.
 
 - **Continue to Promote and Advance the Loyalty Program System:** During the last two years of operation, loyalty program members have started to outpace non-loyalty members in terms of sales, AOV, and orders placed. Continuing to incentivize customers through this program seems to be working in Elist’s favor and may continue to prove profitable in the future.
+
+# Change Log / Data Cleaning Steps
+The following displays the change log sheet used when cleaning the original dataset in Excel and encompasses every data cleaning/validation step taken:
+
+&nbsp;
+
+<img width="612" alt="change log 2" src="https://github.com/user-attachments/assets/c07fe822-7bdc-4309-aec1-cb2f7ca0da8a">
+
+
 
 
 
