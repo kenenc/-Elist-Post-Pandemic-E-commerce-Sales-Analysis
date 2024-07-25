@@ -46,7 +46,7 @@ Additionally, the following pivot table displays all of the same information hig
 ## Seasonality
 Analyzing how north star metrics (in this case, sales) trend by month/seasons can reveal a lot about customer purchasing behavior throughout the year. To analyze this seasonality, I created a month-over-month sales growth table along with a chart that shows the total sales broken up by year.
 
-<img width="313" alt="MoM Sales Growth" src="https://github.com/user-attachments/assets/bc293f1f-11a6-4efa-9b8f-9a030beadf61"> <img width="596" alt="monthly sales trend by year" src="https://github.com/user-attachments/assets/ccb61216-fe3d-4ba2-bad6-b92ab0f1bdde">
+<img width="300" alt="MoM Sales Growth" src="https://github.com/user-attachments/assets/bc293f1f-11a6-4efa-9b8f-9a030beadf61"> <img width="566" alt="monthly sales trend by year" src="https://github.com/user-attachments/assets/ccb61216-fe3d-4ba2-bad6-b92ab0f1bdde">
 
 By examining these charts, we can note a few observations: 
 
